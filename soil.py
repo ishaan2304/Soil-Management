@@ -175,20 +175,16 @@ with col2:
         limit_value = None
         if limit != "Don't Limit":
             limit_value = int(limit.split()[2])        
-
     with col21:
         if limit_value:
             st.header(f"Last {limit_value} Records")
         else:
             st.header("All Records")
-
     with col23:
         # Dropdown for bulk insert quantity
         bulk_quantity = st.selectbox("Select Bulk Quantity", [10, 50, 100, 500, 1000, 10000, 100000])
-
     with col24:
         if st.button("Insert Bulk Records"):
             batch_size = min(bulk_quantity, 10000)  # Set batch size to a maximum of 10,000
             insert_bulk_records(bulk_quantity, batch_size)
-
     display_records(limit=limit_value)
