@@ -1,2 +1,2 @@
 # Soil-Management
-managing soil data from various locations
+managing soil data from various locations.
