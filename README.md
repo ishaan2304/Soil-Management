@@ -1,7 +1,7 @@
 # Soil-Management
 
 ## Overview
-Soil-Management is a Python-based project designed to manage soil data from various locations. The repository provides tools and functionalities to collect, analyze, and visualize soil-related data, enabling efficient soil management and decision-making.
+Soil-Management is a Python-based project designed to manage soil data from various locatons. The repository provides tools and functionalities to collect, analyze, and visualize soil-related data, enabling efficient soil management and decision-making.
 
 ## Features
 - **Data Collection**: Import and manage soil data from multiple sources.
